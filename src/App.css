@@ -1,0 +1,147 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-bg: #10101a;
+  --green: #64ffda;
+  --lign: #ccd6f6;
+  --slate: #8892b0;
+  --light-navy: #233554;
+  --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
+  --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+body{
+  background-color: var(--main-bg);
+  font-family: Circular Std Book,sans-serif;
+  font-size: 1.6rem;
+  color: var(--lign);
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  font-size: clamp(14px,5vw,16px);
+  font-family: var(--font-sans);
+}
+
+.full-page{
+  width: 100vw;
+  height: 100vh;
+}
+
+.full-screen-height{
+  height: 100vh;
+}
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-end{
+  align-items: end;
+}
+
+.big-heading{
+  font-size: clamp(40px, 8vw, 80px);
+}
+
+.semi-heading{
+  font-size: clamp(25px, 4vw, 40px);
+}
+
+.line{
+  background-color: var(--light-navy);
+  height: 1px;
+  width: 300px;
+  display: inline-block;
+}
+
+/* Margin & Padding */
+.mt-10{
+  margin-top: 10px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+/* text styling */
+.numbered-title{
+  font-size: clamp(26px,5vw,32px);
+  font-family: var(--font-sans);
+  white-space: nowrap;
+}
+
+.numbered-title .number {
+  position: relative;
+  bottom: 4px;
+  counter-increment: section 1;
+  content: "0" counter(section) ".";
+  margin-right: 10px;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 400;
+}
+
+.txt-green{
+  color: var(--green);
+}
+
+.txt-slate{
+  color: var(--slate);
+}
+
+.txt-font-mono{
+  font-family: var(--font-mono);
+}
+
+.txt-small{
+  font-size: clamp(14px,5vw,16px);
+}
+
+/* Section */
+section .inner{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+@media (max-width: 540px) {
+  section .inner{
+    display: block;
+  }
+
+  .line{
+    width: 100%;
+  }
+}
