@@ -22,6 +22,11 @@ body{
   color: var(--lign);
 }
 
+section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 img{
   max-width: 100%;
 }
@@ -33,7 +38,7 @@ p{
 
 .full-page{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .full-screen-height{
@@ -59,6 +64,10 @@ p{
 
 .justify-center{
   justify-content: center;
+}
+
+.align-center{
+  align-items: center;
 }
 
 .align-end{
@@ -87,6 +96,18 @@ p{
 
 .mt-20{
   margin-top: 20px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+
+.ml-5{
+  margin-left: 5px;
 }
 
 .ml-10{
@@ -126,6 +147,10 @@ p{
 
 .txt-small{
   font-size: clamp(14px,5vw,16px);
+}
+
+.line-height-0{
+  line-height: 1;
 }
 
 /* Section */

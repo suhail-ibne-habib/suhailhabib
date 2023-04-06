@@ -1,4 +1,26 @@
+.field{
+    margin-left: 8px;
+    color: var(--green);
+    text-decoration: underline;
+}
+
 .name{
-    font-size: 45px;
-    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 3px var(--lign);
+    overflow: hidden;
+}
+
+.name span{
+    position: relative;
+    display: inline-block;
+}
+
+.name span::before{
+    content: attr(data-char);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-110%);
+    color: var(--lign);
 }

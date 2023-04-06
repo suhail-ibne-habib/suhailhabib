@@ -3,12 +3,13 @@ import React from 'react';
 import classes from './About.module.css';
 
 import Suhail from './imgs/suhail.jpg';
+import SectionTitle from './layout/SectionTitle';
 
 function About(){
     return(
         <section id="about" class="full-page">
             <div className="container flex direction-column justify-center">
-                <h2 className="numbered-title flex align-end"><span class="number text-green">01.</span>About Me<span class="line ml-10"></span></h2>
+                <SectionTitle title="About Me" number="01" />
                 <div className="inner">
                     <div>
                         <p class="mt-10">As a highly skilled full-stack and WordPress web developer, I offer a range of cutting-edge web development services to help my clients achieve their business goals. Specializing in HTML, CSS, PHP, Javascript, Reactjs, Nodejs, and WordPress, I have a proven track record of delivering exceptional results to clients across various industries.</p>
