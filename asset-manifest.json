@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/suhailhabib.ml/static/css/main.bcae2a38.css",
-    "main.js": "/suhailhabib.ml/static/js/main.c6941c1d.js",
+    "main.css": "/suhailhabib.ml/static/css/main.8cab0e0d.css",
+    "main.js": "/suhailhabib.ml/static/js/main.885fed66.js",
     "static/media/aysun.jpg": "/suhailhabib.ml/static/media/aysun.2f3a4608dda8246c6c58.jpg",
     "static/media/suhail.jpg": "/suhailhabib.ml/static/media/suhail.3c111e8d66d2755646e8.jpg",
     "static/media/cv.pdf": "/suhailhabib.ml/static/media/cv.eb49ffa2a5acf3751978.pdf",
     "index.html": "/suhailhabib.ml/index.html",
-    "main.bcae2a38.css.map": "/suhailhabib.ml/static/css/main.bcae2a38.css.map",
-    "main.c6941c1d.js.map": "/suhailhabib.ml/static/js/main.c6941c1d.js.map"
+    "main.8cab0e0d.css.map": "/suhailhabib.ml/static/css/main.8cab0e0d.css.map",
+    "main.885fed66.js.map": "/suhailhabib.ml/static/js/main.885fed66.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcae2a38.css",
-    "static/js/main.c6941c1d.js"
+    "static/css/main.8cab0e0d.css",
+    "static/js/main.885fed66.js"
   ]
 }
