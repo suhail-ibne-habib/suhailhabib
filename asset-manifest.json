@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/suhailhabib.ml/static/css/main.8cab0e0d.css",
-    "main.js": "/suhailhabib.ml/static/js/main.885fed66.js",
-    "static/media/aysun.jpg": "/suhailhabib.ml/static/media/aysun.2f3a4608dda8246c6c58.jpg",
+    "main.css": "/suhailhabib.ml/static/css/main.616bfd80.css",
+    "main.js": "/suhailhabib.ml/static/js/main.11221da0.js",
+    "static/media/Alternative Scroll.png": "/suhailhabib.ml/static/media/Alternative Scroll.f548b83c97c6bb55458e.png",
+    "static/media/horizontal.png": "/suhailhabib.ml/static/media/horizontal.354fe5a460e020284fe9.png",
     "static/media/suhail.jpg": "/suhailhabib.ml/static/media/suhail.3c111e8d66d2755646e8.jpg",
     "static/media/cv.pdf": "/suhailhabib.ml/static/media/cv.eb49ffa2a5acf3751978.pdf",
     "index.html": "/suhailhabib.ml/index.html",
-    "main.8cab0e0d.css.map": "/suhailhabib.ml/static/css/main.8cab0e0d.css.map",
-    "main.885fed66.js.map": "/suhailhabib.ml/static/js/main.885fed66.js.map"
+    "main.616bfd80.css.map": "/suhailhabib.ml/static/css/main.616bfd80.css.map",
+    "main.11221da0.js.map": "/suhailhabib.ml/static/js/main.11221da0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cab0e0d.css",
-    "static/js/main.885fed66.js"
+    "static/css/main.616bfd80.css",
+    "static/js/main.11221da0.js"
   ]
 }
