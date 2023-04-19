@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/suhailhabib.ml/static/css/main.40119e6e.css",
-    "main.js": "/suhailhabib.ml/static/js/main.bc37d801.js",
+    "main.css": "/suhailhabib.ml/static/css/main.68a2ad75.css",
+    "main.js": "/suhailhabib.ml/static/js/main.3f0c5441.js",
     "static/media/Alternative Scroll.png": "/suhailhabib.ml/static/media/Alternative Scroll.f548b83c97c6bb55458e.png",
     "static/media/horizontal.png": "/suhailhabib.ml/static/media/horizontal.354fe5a460e020284fe9.png",
+    "static/media/horizontal_page.png": "/suhailhabib.ml/static/media/horizontal_page.46b2ea6df2301be4489e.png",
     "static/media/suhail.jpg": "/suhailhabib.ml/static/media/suhail.3c111e8d66d2755646e8.jpg",
     "static/media/cv.pdf": "/suhailhabib.ml/static/media/cv.eb49ffa2a5acf3751978.pdf",
     "index.html": "/suhailhabib.ml/index.html",
-    "main.40119e6e.css.map": "/suhailhabib.ml/static/css/main.40119e6e.css.map",
-    "main.bc37d801.js.map": "/suhailhabib.ml/static/js/main.bc37d801.js.map"
+    "main.68a2ad75.css.map": "/suhailhabib.ml/static/css/main.68a2ad75.css.map",
+    "main.3f0c5441.js.map": "/suhailhabib.ml/static/js/main.3f0c5441.js.map"
   },
   "entrypoints": [
-    "static/css/main.40119e6e.css",
-    "static/js/main.bc37d801.js"
+    "static/css/main.68a2ad75.css",
+    "static/js/main.3f0c5441.js"
   ]
 }
