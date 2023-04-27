@@ -1,13 +1,20 @@
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px;
+}
+
 .field{
-    margin-left: 8px;
     color: var(--green);
     text-decoration: underline;
 }
 
 .name{
     color: transparent;
-    -webkit-text-stroke: 3px var(--lign);
+    -webkit-text-stroke: 2px var(--lign);
     overflow: hidden;
+    letter-spacing: 2px;
 }
 
 .name span{

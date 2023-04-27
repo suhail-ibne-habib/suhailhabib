@@ -1,0 +1,45 @@
+
+
+.verticle-heading{
+    transform: rotate(180deg);
+    writing-mode: tb-rl;
+    font-family: D-DIN Condensed,sans-serif;
+    font-size: 10px;
+    letter-spacing: .19em;
+    color: #8b8b8b;
+    line-height: 1;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--lign);
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.link{
+    color: var(--green);
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    text-align: right;
+}
+
+.picture{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+@media (max-width: 720px){
+    .verticle-heading{
+        display: none;
+    }
+
+    .title{
+        margin-top: 20px;
+    }
+}

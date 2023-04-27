@@ -1,0 +1,19 @@
+.projects{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 911px){
+    .projects{
+        width: 100%;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 720px){
+    .projects{
+        width: 100%;
+        margin-top: 80px;
+    }
+}

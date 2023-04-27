@@ -11,13 +11,12 @@ function Hero(){
     const replaceChar = useRef([]);
 
     const timeline = gsap.timeline();
-
-    const addToChar = el => {
+    let addToChar = el => {
         if( el && !chars.current.includes(el) ){
             chars.current.push(el);
         }
 
-        if(el.getAttribute('data-char') !== "."){
+        if(el && el.getAttribute('data-char') !== "."){
             replaceChar.current.push(el)
         }
     }
@@ -46,13 +45,13 @@ function Hero(){
             stagger: 0.1
         } )
 
-    }, [])
+    },[timeline,replaceChar,chars])
 
     return (
         <section id="hero" className='full-page flex direction-column justify-center'>
             <div className="row">
                 <div className="container">
-                    <h5 className='txt-green txt-small txt-font-mono'>My name is</h5>
+                    <h5 className='txt-green txt-small txt-font-mono mb-10'>I am</h5>
                     <h2 className={classes.name + " big-heading"} ref={bigHeadingRef}>
                         <span ref={addToChar} className='char' data-char="S">S</span>
                         <span ref={addToChar} className='char' data-char=".">u</span>
@@ -64,12 +63,12 @@ function Hero(){
                         <span ref={addToChar} className='char' data-char=".">a</span>
                         <span ref={addToChar} className='char' data-char="b">b</span>
                         <span ref={addToChar} className='char' data-char=".">i</span>
-                        <span ref={addToChar} className='char' data-char="b">b</span>.
+                        <span ref={addToChar} className='char' data-char="b">b</span>
                         </h2>
                     <h2 className='semi-heading txt-slate'>My mission is to maximize my clients' revenue.</h2>
                     <p className="mt-20">As a highly skilled full-stack and WordPress web developer, I offer a range of cutting-edge web development services to help my clients achieve their business goals. </p>
-                    <p className="mt-20 flex align-center">
-                        <span className='line-height-0'>Specializing in</span> 
+                    <p className="mt-20 flex align-center flex-wrap">
+                        <span className='line-height-0 mr-10'>Specializing in</span> 
                         <span className={classes.fields}>
                             <span className={classes.field} >HTML</span>
                             <span className={classes.field} >CSS</span>
